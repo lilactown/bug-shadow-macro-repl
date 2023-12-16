@@ -1,7 +1,7 @@
 # Overview
 
 This repo demonstrates a bug I found in shadow-cljs where macros are not loaded
-from preloads.
+from preloads whose namespace has only a single part, e.g. `bug-shadow-macro-repl`.
 
 
 ## Setup
@@ -55,6 +55,8 @@ cljs.user=> (bug-shadow-macro-repl/bar)
 
 
 ## Additional details
+
+Namespaces with two or more parts, e.g. `bug-shadow.macro-repl`, do work as expected.
 
 Requiring the namespace explicitly from the REPL does allow it to be executed:
 
