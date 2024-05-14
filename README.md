@@ -1,7 +1,8 @@
 # Overview
 
-This repo demonstrates a bug I found in shadow-cljs where macros are not loaded
-from preloads whose namespace has only a single part, e.g. `macro-repl-bug`.
+This repo demonstrates a bug I found in ClojureScript where macros are not
+loaded from preloads whose namespace has only a single part, e.g.
+`macro-repl-bug`.
 
 
 ## Setup
