@@ -16,7 +16,7 @@ To run the project, you'll need both Java and Clojure installed on your system.
 
 ## Reproduction
 
-0. Start a CLJS REPL, e.g. `clj -M -m cljs.main -re node -r`
+0. Start a CLJS REPL, e.g. `clj -M -m cljs.main -co build.edn -v -c -r`
 1. In the REPL, evaluate `(macro-repl-bug/foo)`
 2. Then, evaluate `(macro-repl-bug/bar)`
 
