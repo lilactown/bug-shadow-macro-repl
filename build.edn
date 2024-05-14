@@ -1,0 +1,6 @@
+{:main app.main
+ :output-to "public/js/main.js"
+ :output-dir "public/js"
+ :target :browser
+ :preloads [macro-repl-bug
+            macro-repl.works]}
